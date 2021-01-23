@@ -1,0 +1,82 @@
+
+.avatar img{
+width: auto;
+max-height: 24px;
+display: inline-block;
+}
+
+.wrapp img, .wrapp-stories img{
+  height: 100%;
+  width: auto;
+}
+
+.wrapp{
+  max-height: 500px;
+}
+.wrapp-stories{
+  max-height: 350px;
+}
+
+.wrapp div, .wrapp-stories div{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+footer .teams img{
+  width: auto;
+  max-height: 32px;
+  padding: 4px;
+  display: inline-block;
+  opacity: 0.7;
+  border-radius: 50%;
+  border: 1px solid #9e9e9e;
+}
+
+
+footer .teams img:hover{
+  opacity: 1;
+}
+
+
+
+
+#feature .row > div:nth-of-type(1){
+  border-bottom: 1px solid #9e9e9e;
+}
+#feature .row > div:nth-of-type(2){
+  border-bottom: 1px solid #9e9e9e;
+}
+#feature .row > div:nth-of-type(3){
+  border-bottom: 1px solid #9e9e9e;
+}
+
+@media only screen and (min-width: 768px){
+  #feature .row > div:nth-of-type(2){
+    border-left: 1px solid #9e9e9e;
+    border-right: 1px solid #9e9e9e;
+  }
+  #feature .row > div:nth-of-type(5){
+    border-left: 1px solid #9e9e9e;
+    border-right: 1px solid #9e9e9e;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  #feature .row > div:nth-of-type(2n+1){
+    border-right: 1px solid #9e9e9e;
+  }
+
+  #feature .row > div:nth-of-type(4){
+    border-bottom: 1px solid #9e9e9e;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+
+  #feature .row > div{
+    border-bottom: 1px solid #9e9e9e;
+  }
+}
+
